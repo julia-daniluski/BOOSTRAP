@@ -3,3 +3,55 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: hsl(183, 100%, 91%);
+    text-align: center;
+    padding: 20px;
+}
+
+.container{
+    align-items: center;
+    justify-content: center;
+    max-width: 30%;
+    margin: 20px auto;
+    background: #f8ddff;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+
+}
+
+.form-control{
+    width: 400px;
+}
+
+.custom-button {
+    font-size: 18px;
+    color: #222;
+    border-radius: 30px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Efeito hover nos textos */
+.custom-button{
+    font-size: 15px;
+    border-radius: 10px;
+    align-items: center;
+    left: 30%;
+}
+
+
+/* Efeito hover nos textos */
+.custom-button:hover {
+    background-color: #76b6ff;
+    border-radius: 10px;
+    align-items: center;
+}
+
+
