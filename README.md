@@ -34,4 +34,10 @@ https://github.com/user-attachments/assets/ceb860a9-01a1-4135-a915-ee0a5d083ae6
 
 ## 9: aprendemos a criar uma interface interativa com alerts, toasts e progress bar utilizando Bootstrap, ou seja, um aviso dentro da página demonstrando o uso de componentes de feedback visual e controles dinâmicos.
 
+https://github.com/user-attachments/assets/3ebead20-611f-4944-b777-29eb6bf4fe1c
+
+![Captura de tela 2025-03-18 101637](https://github.com/user-attachments/assets/45c97e3f-12cd-42b4-9174-a96b9f4efcd4)
+
+
+
 
