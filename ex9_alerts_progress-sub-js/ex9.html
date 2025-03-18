@@ -16,19 +16,27 @@
             <button class="btn btn-warning me-3" id="showToastBtn">Mostrar alerta 'toast'</button>
          </div>
            <!--- Alerta de sucesso -->
-    <div class="alert alert-success alert-dismissible fade" role="alert" id="successAlert">
+    <div class="alert alert-success alert-dismissible fade" id="successAlert">
         <p>Deu certo!</p>
         <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
       </div>
             <!--- Alerta de erro -->
-      <div class="alert alert-danger alert-dismissible fade" role="alert" id="errorAlert">
+      <div class="alert alert-danger alert-dismissible fade"  id="errorAlert">
         <p>Erro!</p>
         <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
       </div>
-           <!--- Alerta de toast -->
-      <div class="alert alert-warning alert-dismissible fade" role="alert" id="Alert">
-        <p>Isso.</p>
-        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+           <!--  -->
+      <div class="position-fixed top-0 end-0 p-3">
+        <div class="toast" id="liveToast" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+                <small>11 minutos atrás</small>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+              </div>
+              <div class="toast-body">
+                <p>Tá indo ó</p>
+              </div>
+
+        </div>
       </div>
     </div>
 
