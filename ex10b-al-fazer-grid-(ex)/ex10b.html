@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Promoções da Loja</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap ícones -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
     <style>
         /* Centralizar o carrossel */
         .carousel-container {
@@ -19,12 +21,53 @@
     </style>
 </head>
 <body>
+    <!-- Primeira navbar -->
+    <nav class="navbar navbar-expand-Ig navbar-dark bg-dark">
+        <div class="container">
+            <!-- parte 2 -->
+            <a href="#" class="navbar-brand">
+                <img src="favicon.png" alt="icon">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon" id="navbarNav"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Ínicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Ofertas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
+    <main>
+        <div class="container mt-3">
+            <div class="carousel slide" id="carouselExemplo" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/livro1.jpg" alt="figura1" class="d-block w-20">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/livro2.jpg" alt="figura2" class="d-block w-20">
+                    </div>
+                </div>
+                <button class="carousel-control-prev bg-dark" type="button" data-bs-target="#carouselExemplo" data-bs-slide="prev" aria-label="Previous">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next bg-dark" type="button" data-bs-target="#carouselExemplo" data-bs-slide="next" aria-label="Next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+    </main>
     
-
-    <!-- 1ª Digitação (Aqui) -->
-
-
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 <script>
